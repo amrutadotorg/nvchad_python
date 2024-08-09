@@ -1,8 +1,13 @@
+# NvChad and Custom Configuration Setup
+
+## Clone NvChad
+```bash
 git clone -b v2.0 https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 git clone git@github.com:dreamsofcode-io/neovim-python.git ~/.config/nvim/lua/custom
 mkdir -p ~/.config/mypy && echo -e "[mypy]\nignore_missing_imports = True" > ~/.config/mypy/config
-
-#custom mappings
+```
+## custom mappings
+```lua
 local map = vim.api.nvim_set_keymap
 
 -- Keybindings for commentary
@@ -31,3 +36,4 @@ vim.cmd([[
     autocmd FileType php nnoremap <buffer> <F5> :w<CR>:!wp eval-file %<CR>
   augroup END
 ]])
+```
