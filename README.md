@@ -1,7 +1,8 @@
 # install nvim al2
 https://gorm.dev/install-neovim-on-amazon-linux-2
-
-
+```bash
+sudo yum install nodejs npm
+```
 # NvChad and Custom Configuration Setup
 
 ## clean and backup
