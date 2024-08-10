@@ -1,9 +1,14 @@
+# install nvim al2
+https://gorm.dev/install-neovim-on-amazon-linux-2
+
+
 # NvChad and Custom Configuration Setup
 
 ## clean and backup
 ```bash
 mv ~/.config/nvim ~/.config/nvim_back_$(date +%Y%m%d%H%M%S)
 rm -rf ~/.local/share/nvim
+rm -rf ~/.cache/nvim
 ```
 
 ## Clone NvChad 2.0 + dreamsofcode
