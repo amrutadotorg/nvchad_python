@@ -20,6 +20,7 @@ mkdir -p ~/.config/mypy && echo -e "[mypy]\nignore_missing_imports = True" > ~/.
 ## Clone NvChad newest
 ```bash
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
+nvim -c "TSInstall python"
 ```
 ## custom mappings
 ```lua
