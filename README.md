@@ -24,11 +24,12 @@ git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 nvim -c "TSInstall python"
 ```
 ## git and cp parts 
-
+```
 git clone https://github.com/amrutadotorg/nvchad_python
 cd nvchad_python
-cp mappings.lua options.lua ~/.config/nvim/lua/
+cp -av * ~/.config/nvim/lua/
 cd configs
-cp * ~/.config/nvim/lua/configs/
+cp -av * ~/.config/nvim/lua/configs/
 cd ../plugins/
-cp * ~/.config/nvim/lua/plugins/
+cp -av * ~/.config/nvim/lua/plugins/
+```
