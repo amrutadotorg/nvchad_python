@@ -1,5 +1,7 @@
 # install nvim al2
 https://gorm.dev/install-neovim-on-amazon-linux-2
+
+see also https://nodejs.org/en/download/package-manager
 ```bash
 sudo yum install nodejs npm
 ```
@@ -37,3 +39,5 @@ cp -av * ~/.config/nvim/lua/configs/
 cd ../plugins/
 cp -av * ~/.config/nvim/lua/plugins/
 ```
+in your project do:
+```pip install ruff-lsp```
