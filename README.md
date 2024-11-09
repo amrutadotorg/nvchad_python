@@ -23,7 +23,12 @@ mkdir -p ~/.config/mypy && echo -e "[mypy]\nignore_missing_imports = True" > ~/.
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 nvim -c "TSInstall python"
 ```
-## git and cp parts 
+## install via shell script
+```
+Make it executable: chmod +x install_nvchad_python.sh
+Run it: ./install_nvchad_python.sh
+```
+##install manually
 ```
 git clone https://github.com/amrutadotorg/nvchad_python
 cd nvchad_python
