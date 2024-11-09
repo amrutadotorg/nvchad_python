@@ -1,12 +1,13 @@
+
+
 require "nvchad.mappings"
 
 -- add yours here
 
 local map = vim.api.nvim_set_keymap
 
-
 map("n", ";", ":", { desc = "CMD enter command mode" })
-map("i", "jk", "<ESC>")
+map("i", "jk", "<ESC>", { noremap = true, desc = "Exit insert mode" })
 -- Move lines up and down in normal mode
 map("n", "<S-Up>", ":<C-u>silent! move-2<CR>==", { noremap = true, silent = true, desc = "Move line up" })
 map("n", "<S-Down>", ":<C-u>silent! move+<CR>==", { noremap = true, silent = true, desc = "Move line down" })
