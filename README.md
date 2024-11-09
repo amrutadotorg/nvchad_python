@@ -28,7 +28,7 @@ nvim -c "TSInstall python"
 Make it executable: chmod +x install_nvchad_python.sh
 Run it: ./install_nvchad_python.sh
 ```
-##install manually
+## install manually
 ```
 git clone https://github.com/amrutadotorg/nvchad_python
 cd nvchad_python
