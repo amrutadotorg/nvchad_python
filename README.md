@@ -1,3 +1,7 @@
+# install 
+sudo apt update
+sudo apt install build-essential
+
 # install nvim al2
 https://gorm.dev/install-neovim-on-amazon-linux-2
 
