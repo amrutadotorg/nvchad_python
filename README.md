@@ -7,10 +7,14 @@ curl -LsSf https://astral.sh/ruff/install.sh | sh
 # install nvim al2
 https://gorm.dev/install-neovim-on-amazon-linux-2
 
-see also https://nodejs.org/en/download/package-manager
-```bash
-sudo yum install nodejs npm
-```
+# install npm
+https://nodejs.org/en/download/package-manager
+or `sudo yum install nodejs npm`
+
+
+# install pyright
+`npm install -g pyright`
+
 # NvChad and Custom Configuration Setup
 
 ## clean and backup
@@ -20,19 +24,16 @@ rm -rf ~/.local/share/nvim
 rm -rf ~/.cache/nvim
 ```
 
-## Clone NvChad 2.0 + dreamsofcode
-```bash
-git clone -b v2.0 https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
-git clone git@github.com:dreamsofcode-io/neovim-python.git ~/.config/nvim/lua/custom
-mkdir -p ~/.config/mypy && echo -e "[mypy]\nignore_missing_imports = True" > ~/.config/mypy/config
-```
 ## Clone NvChad newest
 ```bash
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 nvim -c "TSInstall python"
 ```
 ## install via shell script
+`git clone https://github.com/amrutadotorg/nvchad_python.git`
+
 Make it executable: `chmod +x install_nvchad_python.sh`
+
 Run it: `./install_nvchad_python.sh`
 
 ## install manually
