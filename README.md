@@ -1,6 +1,7 @@
 # install 
 sudo apt update
 sudo apt install build-essential
+
 curl -LsSf https://astral.sh/ruff/install.sh | sh
 
 # install nvim al2
