@@ -1,9 +1,10 @@
 # install 
+```bash
 sudo apt update
 sudo apt install build-essential
 
 curl -LsSf https://astral.sh/ruff/install.sh | sh
-
+```
 # install nvim al2
 https://gorm.dev/install-neovim-on-amazon-linux-2
 
@@ -13,7 +14,9 @@ or `sudo yum install nodejs npm`
 
 
 # install pyright
-`npm install -g pyright`
+```bash
+npm install -g pyright
+```
 
 # NvChad and Custom Configuration Setup
 
@@ -30,11 +33,16 @@ git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 nvim -c "TSInstall python"
 ```
 ## install via shell script
-`git clone https://github.com/amrutadotorg/nvchad_python.git`
+```bash
+git clone https://github.com/amrutadotorg/nvchad_python.git
+cd nvchad_python
 
-Make it executable: `chmod +x install_nvchad_python.sh`
+# Make it executable: 
+chmod +x install_nvchad_python.sh`
 
-Run it: `./install_nvchad_python.sh`
+#Run it:
+./install_nvchad_python.sh
+```
 
 ## install manually
 ```
@@ -47,4 +55,6 @@ cd ../plugins/
 cp -av * ~/.config/nvim/lua/plugins/
 ```
 in your project do:
-```pip install ruff-lsp```
+```bash
+pip install ruff-lsp
+```
