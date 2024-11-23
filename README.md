@@ -38,7 +38,7 @@ git clone https://github.com/amrutadotorg/nvchad_python.git
 cd nvchad_python
 
 # Make it executable: 
-chmod +x install_nvchad_python.sh`
+chmod +x install_nvchad_python.sh
 
 #Run it:
 ./install_nvchad_python.sh
