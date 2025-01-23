@@ -36,4 +36,14 @@ return {
       ensure_installed = { "python" },
     },
   },
+  {
+    "nvim-treesitter/nvim-treesitter-textobjects",
+    dependencies = {
+      "nvim-treesitter/nvim-treesitter",
+    },
+    ft = { "python" },
+    config = function()
+      require("configs.treesitter-textobjects").config()
+    end,
+  },
 }
